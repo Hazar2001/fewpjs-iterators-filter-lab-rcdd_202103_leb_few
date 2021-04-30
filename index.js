@@ -1,5 +1,4 @@
 // Code your solution here
 function findMatching(drivers,string){
-  let names = drivers.filter(s => string);
-  return name;
+  return drivers.filter(name => { return (name.toLowerCase()===string.toLowerCase())})
 }
